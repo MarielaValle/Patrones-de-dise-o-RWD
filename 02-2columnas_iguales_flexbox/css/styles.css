@@ -39,3 +39,19 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+@media(min-width:768px){
+    .dos-columnas{
+
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .entrada-blog{
+        flex-basis: calc(50% - 1rem);
+        /*ahora se puede usar gap:2rem no tiene soporte 100% sobre todo en Safary*/
+        /*flex: 0 0 calc(50% - 1rem) factor crecimiento - factor de hacer más pequeño y valor base -> más viejo*/
+    }
+
+
+}
