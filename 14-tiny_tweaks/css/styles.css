@@ -15,9 +15,6 @@ body {
     line-height: 2;
 }
 
-img {
-    max-width: 100%;
-}
 
 h1 {
     font-size: 4rem;
@@ -33,11 +30,7 @@ p {
     font-size: 2rem;
 }
 
-.contenedor {
-    max-width: 1200px;
-    width: 95%;
-    margin: 0 auto;
-}
+
 
 .entrada-blog a {
     display: inline-block;
@@ -50,3 +43,28 @@ p {
 }
 
 /** CODIGO AQUI **/
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width:768px ) {
+    
+.contenedor{
+
+    width:80%;
+}
+}
+
+@media (min-width: 992px) {
+    .contenedor{
+
+        width:60%;
+    }
+
+}
